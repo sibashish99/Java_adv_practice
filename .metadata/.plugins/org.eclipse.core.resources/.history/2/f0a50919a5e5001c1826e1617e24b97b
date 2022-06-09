@@ -1,0 +1,21 @@
+package com.training.demo;
+
+import java.util.function.Predicate;
+
+public class PredicateApplication implements Predicate<T> {
+
+	@Override
+	public boolean test(Integer t) {
+		// TODO Auto-generated method stub
+		if(t%2==0) {
+			return true;
+		}
+		return false;
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+
+}

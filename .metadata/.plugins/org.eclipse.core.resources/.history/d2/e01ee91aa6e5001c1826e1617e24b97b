@@ -1,0 +1,42 @@
+package com.training.demo;
+
+import java.util.function.Predicate;
+
+//public class PredicateApplication implements Predicate<Integer> {
+public class PredicateApplication {
+
+	/**@Override
+	public boolean test(Integer t) {
+		// TODO Auto-generated method stub
+		if(t%2==0) {
+			return true;
+		}
+		return false;
+	}*/
+	
+	public static void main(String[] args) {
+		
+		/**
+		 * A predicate is a function that receives a value and evaluates it.
+		 *It has a method test(T obj) to evaluate and return a Boolean value.
+		 *It also has some default Methods
+		 * */
+		
+		
+		/**Predicate<Integer> p =new PredicateApplication();
+		System.out.println(p.test(101));*/
+		
+		Predicate<Integer> p = (Integer t) {
+			// TODO Auto-generated method stub
+			if(t%2==0) {
+				return true;
+			}
+			return false;
+		}*/
+		
+	}
+
+	
+
+
+}

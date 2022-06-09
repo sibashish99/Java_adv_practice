@@ -1,0 +1,16 @@
+package com.example.marker;
+
+public class CloneableApplication {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/**
+		 * Cleanable interface in Java is also a marker interface that belong to java.lang package. 
+		 * It generates replica (copy) of an object with different name
+		 * 
+		 * */
+
+	}
+
+}

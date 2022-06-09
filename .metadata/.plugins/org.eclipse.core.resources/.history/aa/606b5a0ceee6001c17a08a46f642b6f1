@@ -1,0 +1,21 @@
+package com.example.marker;
+
+public class MarkerApplication {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		/**
+		 * An interface that does not contain methods, fields, and constants is known as marker interface.
+		 * It delivers the run-time type information about an object. It is the reason that the JVM and compiler have additional information about an object.   
+		 *Its uses, built-in (Serializable, Cloneable, and Remote Interfaces) and custom marker interface with examples
+		 * */
+		
+		/**
+		 * 
+		 * 
+		 * */
+
+	}
+
+}
